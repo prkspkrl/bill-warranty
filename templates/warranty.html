@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Event</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap+Condensed:600i,700">
+  <style>
+    body {
+      background: #fafafa;
+      display: flex;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+    h3 {
+      font-size: 26px;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .card {
+      position: relative;
+      margin: auto;
+      height: 350px;
+      width: 600px;
+      text-align: center;
+      background: linear-gradient(#E96874, #6E3663, #2B0830);
+      border-radius: 2px;
+      box-shadow: 0 6px 12px -3px rgba(0, 0, 0, .3);
+      color: #fff;
+      padding: 30px;
+    }
+
+    .card header {
+      position: absolute;
+      top: 31px;
+      left: 0;
+      width: 100%;
+      padding: 0 10%;
+      transform: translateY(-50%);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+    }
+
+    .card header > *:first-child {
+      text-align: left;
+    }
+    .card header > *:last-child {
+      text-align: right;
+    }
+
+    .logo {
+      font-size: 24px;
+      position: relative;
+    }
+    .logo:before,
+    .logo:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      border-top: 3px solid currentColor;
+      transform: translateY(-50%);
+    }
+
+    .logo:before {
+      right: 158px;
+      width: 40%;
+    }
+    .logo:after {
+      left: 158px;
+      width: 55%;
+    }
+
+    .logo span {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: calc(50% - 1px);
+    }
+
+    .announcement {
+      position: relative;
+      border: 3px solid currentColor;
+      border-top: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .announcement:before,
+    .announcement:after {
+      content: '';
+      position: absolute;
+      top: 0px;
+      border-top: 3px solid currentColor;
+      height: 0;
+      width: 15px;
+    }
+    .announcement:before {
+      left: -3px;
+    }
+    .announcement:after {
+      right: -3px;
+    }
+
+    .inspiration {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    a,
+    a:visited,
+    a:focus,
+    a:active,
+    a:link {
+      text-decoration: none;
+      outline: 0;
+    }
+
+    a {
+      color: currentColor;
+      transition: .2s ease-in-out;
+    }
+
+    h1, h2, h3, h4 {
+      margin: .15em 0;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+/*    img {
+      vertical-align: middle;
+      height: auto;
+      width: 100%;
+    }*/
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <time datetime="2018-05-15T19:00">May 15 - 2018</time>
+      <div class="logo">
+        <span>
+          <svg xmlns="http://www.w3.org/Icons/WWW/w3c_home" id="Layer_1" viewBox="0 0 234.5 53.7">
+            <style>.st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}</style>
+            <path d="M.6 1.4L116.9 52l117-50.6" class="st0"/>
+          </svg>
+        </span>
+        <div>
+              <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/304694399_511598327632441_789120338302387799_n.jpg?_nc_cat=106&cb=99be929b-8d691acd&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=yMdeeGxC_iAAX-zFC_6&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBPLqgBuxtPqt-faGgXsrhMY5NMJdnyUH-LOQHZZ1o7hg&oe=659CAEA6" width="50px;" height="50px;" alt="Inspiration Image">
+        </div>
+
+
+      </div>
+      <div class="sponsor">Sponsor</div>
+    </header>
+    <div class="announcement">
+      <h2>Watches Nepal</h2><br>
+      <h5>Name : {{i.customer_name}}</h5>
+      <h5>Watch : {{i.watch_name}}</h5> <br>
+
+      "Your watch is protected by a 1 Years warranty."
+      <br><br> 9823034289 | insta:watch.nepal
+    </div>
+    <div>
+
+    </div>
+  </div>
+</body>
+</html>
+
+

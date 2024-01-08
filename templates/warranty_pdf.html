@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Event</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap+Condensed:600i,700">
+  <style>
+    body {
+      background: #fafafa;
+      display: flex;
+      text-transform: uppercase;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .card {
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 6px 12px -3px rgba(0, 0, 0, .3);
+      color: #fff;
+      background: linear-gradient(#E96874, #6E3663, #2B0830);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .logo {
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      max-width: 50px;
+      height: auto;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .announcement {
+      padding: 30px;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .border-line {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      border: 1px solid #fff;
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <header>
+      <time datetime="2018-05-15T19:00" style="text-align: left; color: #fff; font-size: 16px;">{{bill.date}}</time>
+
+      <div class="logo">
+        <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/304694399_511598327632441_789120338302387799_n.jpg?_nc_cat=106&cb=99be929b-8d691acd&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=yMdeeGxC_iAAX-zFC_6&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBPLqgBuxtPqt-faGgXsrhMY5NMJdnyUH-LOQHZZ1o7hg&oe=659CAEA6" alt="Inspiration Image">
+      </div>
+
+      <div class="sponsor" style="text-align: right; color: #fff; font-size: 16px;">9823034289 <br> INSTA: WATCH.NEPAL</div>
+    </header>
+
+    <div class="announcement">
+      <div class="border-line"></div>
+      <h2>Watches Nepal</h2>
+      <p>Name: {{bill.customer_name}}</p>
+      <p>Watch: {{bill.watch_name}}</p><br>
+      <p>"Your watch is protected by a 1-year warranty."</p><br>
+
+      <p>UID: {{bill.invoice}}</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

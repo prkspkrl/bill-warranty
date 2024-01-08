@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+
+Welcome to system
+
+{% endblock %}
+
+{% block content %}
+
+<a href="{% url 'printbill:printbill' %}" type="button" class="btn btn-success position-absolute end-0 m-4" style="margin-right: 0;" data-mdb-ripple-init>
+    <span class="fa fa-plus fa-lg" aria-hidden="true"> </span> Add Bill 
+</a>
+
+<table class="table caption-top m-5">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Model</th>
+        <th scope="col">Total</th>
+        <th scope="col">Date</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for i in list_customer %}
+      <tr>
+        <th scope="row">{{forloop.counter}}</th>
+        <td>{{i.customer_name}}</td>
+        <td>{{i.watch_name}}</td>
+        <td>{{i.grand_total}}</td>
+        <td>{{i.date}}</td>
+<td>
+    <a href="{% url 'printbill:printbill' i.pk %} "><i class="fa-regular fa-eye"></i></a>
+    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+    <a href="{% url 'printbill:deletebill' i.pk %}"><i class="fa-solid fa-trash"></i></a>
+
+</td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

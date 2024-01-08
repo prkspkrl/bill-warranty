@@ -1,0 +1,177 @@
+arabic-reshaper==3.0.0
+asgiref==3.6.0
+asn1crypto==1.5.1
+autopep8==2.0.1
+backcall==0.1.0
+beautifulsoup4==4.12.2
+blinker==1.6.3
+boltons @ file:///work/ci_py311/boltons_1677685195580/work
+boto3==1.28.62
+botocore==1.31.62
+Brotli==1.0.9
+brotlipy==0.7.0
+build==1.0.3
+CacheControl==0.13.1
+cachetools==5.3.1
+certifi @ file:///croot/certifi_1683875369620/work/certifi
+cffi @ file:///work/ci_py311/cffi_1676822533496/work
+chardet==5.2.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+CMRESHandler==1.0.0
+colorlog==6.7.0
+conda @ file:///croot/conda_1689269889729/work
+conda-content-trust @ file:///work/ci_py311/conda-content-trust_1676851327497/work
+conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1685032319139/work/src
+conda-package-handling @ file:///croot/conda-package-handling_1685024767917/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1685019673878/work
+configparser==6.0.0
+contourpy==1.1.1
+coreapi==2.3.3
+coreschema==0.0.4
+cryptography==41.0.7
+cssselect2==0.7.0
+cycler==0.12.1
+Cython==3.0.3
+decorator==4.4.2
+Deprecated==1.2.14
+Django==4.1.5
+django-cors-headers==3.2.1
+django-debug-toolbar==3.2.4
+django-extensions==2.2.9
+django-filter==2.2.0
+djangorestframework==3.11.0
+djangorestframework-simplejwt==5.2.2
+drf-yasg==1.20.0
+elastic-transport==8.4.1
+elasticsearch==8.10.0
+enum34==1.1.10
+exponent-server-sdk==2.0.0
+firebase-admin==6.2.0
+Flask==3.0.0
+Flask-Cors==4.0.0
+fonttools==4.38.0
+freetype-py==2.3.0
+gevent==23.9.1
+google==3.0.0
+google-api-core==2.12.0
+google-api-python-client==2.103.0
+google-auth==2.23.3
+google-auth-httplib2==0.1.1
+google-cloud-core==2.3.3
+google-cloud-firestore==2.12.0
+google-cloud-storage==2.11.0
+google-crc32c==1.5.0
+google-resumable-media==2.6.0
+googleapis-common-protos==1.60.0
+greenlet==3.0.0
+grpcio==1.59.0
+grpcio-status==1.59.0
+grpcio-tools==1.59.0
+html5lib==1.1
+httplib2==0.22.0
+idna @ file:///work/ci_py311/idna_1676822698822/work
+imgkit==1.2.3
+importlib-metadata==6.8.0
+inflection==0.5.1
+inject==5.0.0
+ipython==7.13.0
+ipython-genutils==0.2.0
+itsdangerous==2.1.2
+itypes==1.2.0
+jedi==0.16.0
+Jinja2==3.1.2
+jmespath==1.0.1
+joblib==1.3.2
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+kafka-python==2.0.2
+kiwisolver==1.4.5
+libmambapy @ file:///croot/mamba-split_1685993156657/work/libmambapy
+lxml==4.9.4
+MarkupSafe==2.1.3
+matplotlib==3.8.0
+msgpack==1.0.7
+mysql-connector-python==8.1.0
+numpy==1.26.0
+opencv-python==4.8.1.78
+opentelemetry-api==1.20.0
+opentelemetry-instrumentation==0.41b0
+opentelemetry-instrumentation-grpc==0.41b0
+opentelemetry-sdk==1.20.0
+opentelemetry-semantic-conventions==0.41b0
+oscrypto==1.3.0
+packaging @ file:///croot/packaging_1678965309396/work
+pandas==2.1.1
+parso==0.6.2
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.4.0
+pluggy @ file:///work/ci_py311/pluggy_1676822818071/work
+prompt-toolkit==3.0.5
+proto-plus==1.22.3
+protobuf==3.20.3
+psutil==5.9.5
+ptyprocess==0.6.0
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycodestyle==2.10.0
+pycosat @ file:///work/ci_py311/pycosat_1676838522308/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydyf==0.5.0
+Pygments==2.6.1
+pyHanko==0.21.0
+pyhanko-certvalidator==0.26.3
+PyJWT==2.5.0
+pyOpenSSL==23.3.0
+pyparsing==3.1.1
+pypdf==3.17.4
+pyphen==0.13.2
+pypng==0.20220715.0
+pyproject_hooks==1.0.0
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+python-bidi==0.4.2
+python-dateutil==2.8.2
+pytz==2019.3
+PyYAML==6.0.1
+qrcode==7.4.2
+reportlab==4.0.8
+requests==2.31.0
+rlPyCairo==0.3.0
+rsa==4.9
+ruamel.yaml @ file:///work/ci_py311/ruamel.yaml_1676838772170/work
+s3transfer==0.7.0
+seaborn==0.13.0
+shapely==2.0.1
+six==1.16.0
+soupsieve==2.5
+sqlparse==0.4.3
+svglib==1.5.1
+tinycss2==1.2.1
+tomli==2.0.1
+toolz @ file:///work/ci_py311/toolz_1676827522705/work
+tqdm @ file:///croot/tqdm_1679561862951/work
+traitlets==4.3.3
+treeutil==1.0.0
+typing_extensions==4.8.0
+tzdata==2022.7
+tzlocal==5.2
+uritemplate==4.1.1
+uritools==4.0.2
+urllib3 @ file:///croot/urllib3_1686163155763/work
+vidgear==0.3.2
+vixxgen==1.0
+wcwidth==0.1.9
+weasyprint==57.2
+webencodings==0.5.1
+websockets==11.0.3
+Werkzeug==3.0.0
+wrapt==1.15.0
+xhtml2pdf==0.2.13
+zipfile38==0.0.3
+zipp==3.17.0
+zope.event==5.0
+zope.interface==6.1
+zopfli==0.2.2
+zstandard @ file:///work/ci_py311_2/zstandard_1679339489613/work
